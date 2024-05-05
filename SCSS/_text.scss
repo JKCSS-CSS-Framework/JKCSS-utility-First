@@ -1,5 +1,7 @@
 @each $key in $weights {
     @for $i from 1 through 9 {
-        
+        .font-#{$key} {
+            
+        }
     }
 }
