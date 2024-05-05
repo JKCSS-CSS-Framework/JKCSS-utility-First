@@ -1,5 +1,6 @@
-@each $key in $weights {
-    .font-#{key} {
-        font-weight: ;
+@each $key, $value in $weights {
+    .font-#{$key} {
+        font-weight: $value;
     }
 }
+
