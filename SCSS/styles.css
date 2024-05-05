@@ -1,7 +1,63 @@
-body {
-  background-color: #0d0f10;
+.text-blue {
+  color: blue;
 }
 
-.header {
-  color: #6c757d;
+.bg-blue {
+  background-color: blue;
+}
+
+.text-red {
+  color: red;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.text-pink {
+  color: pink;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.text-yelloow {
+  color: yellow;
+}
+
+.bg-yelloow {
+  background-color: yellow;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.text-green {
+  color: green;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
 }
