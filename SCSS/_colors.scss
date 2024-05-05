@@ -6,7 +6,7 @@
     .bg-#{$key} {
         background-color:  $value;
     }
-    // light Variations
+    // light color
 
     @for $i from 1 through 9 {
         .text-#{$key}-light-#{$i}{ 
@@ -17,7 +17,7 @@
         }
     }
 
-    // dark Variations
+    // dark colors
 
     @for $i from 1 through 9 {
         .text-#{$key}-dark-#{$i}{ 
