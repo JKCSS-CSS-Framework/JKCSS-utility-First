@@ -7,3 +7,25 @@
         background-color:  $value;
     }
 }
+
+// light Variations
+
+@for $i from 1 through 0 {
+    .text-#{$key}-light-#{$i}{ 
+        color: mix(white, $value, $i * 10);
+    }
+    .bg-#{$key}-light-#{$i} {
+        background-color: mix(white, $value, $i * 10);
+    }
+}
+
+// dark Variations
+
+@for $i from 1 through 0 {
+    .text-#{$key}-dark-#{$i}{ 
+        color: mix(black, $value, $i * 10);
+    }
+    .bg-#{$key}-dark-#{$i} {
+        background-color: mix(black, $value, $i * 10);
+    }
+}
