@@ -1,3 +1,11 @@
 // import _variables.scss
 
 @import 'variables';
+
+body {
+    background-color: $primary-color; // Using primary color variable
+  }
+  
+.header {
+    color: $secondary-color; // Using secondary color variable
+}
