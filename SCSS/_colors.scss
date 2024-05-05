@@ -1,0 +1,9 @@
+// genarate the all colors
+@each $key, $value in $colors {
+    .text-#{$key} {
+        color: $value;
+    }
+    .bg-#{$key} {
+        color:  $value;
+    }
+}
