@@ -1,3 +1,6 @@
 $primary-color: #007bff; // Example primary color
 $secondary-color: #6c757d; // Example secondary color
-$primary-color: #ff6347; // Update primary color to a different shade of red
+// $primary-color: #ff6347; // Update primary color to a different shade of red
+
+$new-color: lighten($primary-color, 10%); // Lighten primary color by 10%
+$newer-color: darken($secondary-color, 15%); // Darken secondary color by 15%
